@@ -3,7 +3,7 @@ FROM openjdk:17-jdk-slim
 WORKDIR /app
 
 # Copy the JAR file from the target directory (all JARs)
-COPY target/*.jar app.jar
+COPY target/*.jar JenkinDockerTest-0.0.1-SNAPSHOT.jar
 
 EXPOSE 8080
 
